@@ -13,7 +13,7 @@ This repository is created for the naijahacks2019 challenge
 - Ineffective communication among students, lecturers and staffs within and across various institutions.
 - Discomfort in finding past questions to practice before the real time examination.
 - Emotional pressure suffered by students in locating the examination venue or various places in a particular institution.
-- Unavailability of enuough resources online for institution versatility.
+- Unavailability of enough resources online for institution versatility.
 
 # Solution
 We make an android app that profers the following solutions:
