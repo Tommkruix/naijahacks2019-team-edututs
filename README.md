@@ -22,5 +22,5 @@ We make an android app that profers the following solutions:
 - Provision of local guide system using GPS to be versatile with various places in a particular institution when visiting for the first time or vice versa.
 - Provision of various materials like list of courses, departments e.t.c offered by each institution.
 
-Stack
+# Stack:
 Java, Javascript, Firebase
