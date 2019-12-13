@@ -4,8 +4,10 @@ This repository is created for the naijahacks2019 challenge
 # Naijahacks Hackathon 2019
 # Team name : EDUTUTS
 # Team Members:
-- Ajiferuke Oluwatomiwa (ajiferukeolatommy@gmail.com)
-- Enikuomehin Adejuwon (emirbadoo@gmail.com)
+- Ajiferuke Oluwatomiwa
+- Enikuomehin Adejuwon
+- Emembolu Chinedu
+- Rachael David
 
 
 
