@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#353E4F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#6f7a8b</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="scrollbar">#546E7A</color>
+    <color name="blue">#00abea</color>
+    <color name="white">#ffffff</color>
+
+    <!-- Quiz Colors  -->
+    <color name="colorPrimaryQuiz">#795548</color>
+    <color name="colorPrimaryDarkQuiz">#5D4037</color>
+    <color name="colorPrimaryDarkStatusQuiz">#3d2b25</color>
+    <color name="colorAccentQuiz">#FFEB3B</color>
+    <color name="colorBackgroundQuiz">#BCAAA4</color>
+    
+    <!-- Tour Colors -->
+    <color name="colorPrimaryTourUnilorin">#FFC107</color>
+    <color name="colorPrimaryDarkTourUnilorin">#FFA000</color>
+    <color name="colorAccentTourUnilorin">#FF4081</color>
+
+    <color name="colorPrimaryDarkTourBg">#052913</color>
+    <color name="colorPrimaryTourBg">#19482b</color>
+    <color name="colorAccentTour">#FF4081</color>
+
+    <color name="backgroundcolorTour">#fcfcfc</color>
+    <color name="lightgrayTour">#ededed</color>
+    <color name="deeppurpleTour">#7c4dff</color>
+    <color name="yelloTour">#ffb300</color>
+    <color name="greenTour">#00bfa5</color>
+    <color name="darkblueTour">#23283a</color>
+    <color name="testcolorblueTour">#152b38</color>
+    <color name="pinkTour">#fe104d</color>
+
+    <color name="black_overlayTour">#66000000</color>
+
+    <!-- Shimmer placeholder -->
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+</resources>

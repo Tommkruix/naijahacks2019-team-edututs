@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codebrainz.campuschat.LoginActivity"
+    android:background="@color/colorPrimaryDark"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp">
+
+
+    <LinearLayout
+        android:gravity="top"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    style="@style/textview_style"
+                    android:textSize="32sp"
+                    android:layout_marginTop="60dp"
+                    android:text="Register now"
+                    android:layout_marginBottom="60dp"/>
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/textview_style"
+            android:text="CampusChat"
+            android:layout_below="@+id/imageView"/>
+
+        <EditText
+            android:id="@+id/register_username"
+            style="@style/edittext_style"
+            android:inputType="text"
+            android:hint="Username"/>
+                <EditText
+                    android:id="@+id/register_email"
+                    style="@style/edittext_style"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/register_password"
+            android:inputType="textPassword"
+            style="@style/edittext_style"
+            android:hint="Password"/>
+              <!--  <EditText
+                    android:id="@+id/textView_phonenumber"
+                    android:inputType="numberDecimal"
+                    style="@style/edittext_style"
+                    android:hint="Phone Number"/>
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_column="0"
+                    android:layout_span="3"
+                    android:orientation="horizontal"
+                    android:fontFamily="sans-serif"
+                    >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#fff"
+                        android:freezesText="true"
+                        android:textStyle="bold"
+                        android:id="@+id/radio_button1"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:freezesText="true"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:id="@+id/radio_button3"/>
+                </RadioGroup>
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:id="@+id/spinner_school"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dropdown"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawSelectorOnTop="true"/>
+                <EditText
+                    android:id="@+id/textView_school_name"
+                    android:inputType="text"
+                    style="@style/edittext_style"
+                    android:hint="School Name"/>
+                <EditText
+                    android:id="@+id/editTex2"
+                    android:inputType="textPassword"
+                    style="@style/edittext_style"
+                    android:hint="Faculty"/>
+                <EditText
+                    android:id="@+id/editext2"
+                    android:inputType="textPassword"
+                    style="@style/edittext_style"
+                    android:hint="Department"/>
+                <EditText
+                    android:id="@+id/ediText2"
+                    android:inputType="textPassword"
+                    style="@style/edittext_style"
+                    android:hint="Level"/>-->
+
+        <Button
+            android:id="@+id/register_button"
+            style="@style/button_style"
+            android:layout_marginTop="20dp"
+            android:text="Create Account"/>
+
+                <Button
+                    android:id="@+id/registered_already"
+                    style="@style/textview_style"
+                    android:textAllCaps="false"
+                    android:background="@android:color/transparent"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Already have an account?" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codebrainz.campuschat.ChatMainActivity">
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="Account"
+        android:tooltipText="Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_create_group_option"
+        android:title="Create Group"
+        app:showAsAction="never"
+        android:tooltipText="Create Group"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/action_dashboard"
+        android:orderInCategory="100"
+        android:title="Dashboard"
+        android:tooltipText="Dashboard"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_find_friends"
+        android:orderInCategory="100"
+        android:title="Find Friends"
+        android:tooltipText="Find Friends"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:tooltipText="Search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="Search" />
+</menu>

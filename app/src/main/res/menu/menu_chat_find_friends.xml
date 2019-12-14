@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codebrainz.campuschat.FindFriendsActivity">
+    <item
+        android:id="@+id/action_account"
+        android:orderInCategory="100"
+        android:title="Account"
+        android:tooltipText="Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:tooltipText="Search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="Search" />
+</menu>

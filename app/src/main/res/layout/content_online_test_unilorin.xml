@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94b793"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.codebrainz.campuschat.OnlineTestUnilorin"
+    tools:showIn="@layout/main_online_test_unilorin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_below="@id/textView"
+                android:src="@drawable/unilorin_icon"
+                />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Welcome to University of Ilorin"
+                android:textAlignment="center"
+                android:textColor="#052045"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="italic"
+                android:text="(Better By Far)"
+                android:textAlignment="center"
+                android:textColor="#052045"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_highscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:textColor="#0f644b"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:text="Highscore: 0"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_gravity="center"
+                android:backgroundTint="#0f644b"
+                android:layout_marginTop="20dp"
+                android:textColor="#94b793"
+                android:fontFamily="cursive"
+                android:shadowRadius="200"
+                android:text="Start Test"
+                android:textSize="30sp" />
+            <Spinner
+                android:id="@+id/spinner_difficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btn_start"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_action_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_online_test"
+            android:icon="@drawable/ic_action_test"
+            android:title="Online Test" />
+        <item
+            android:id="@+id/nav_tour_schools"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tour Schools" />
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/ic_menu_news"
+            android:title="Latest News" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_chat"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>

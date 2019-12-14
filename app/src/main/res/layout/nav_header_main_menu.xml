@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/gradientbackground_main_account"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ref_profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        app:civ_border_width="3dp"
+        app:civ_border_color="@color/colorTransparentWhite"
+        android:src="@drawable/a"
+        android:layout_marginTop="14dp" />
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="2dp"
+                android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp"
+        android:gravity="left"
+        android:id="@+id/ref_username"
+        android:text="John Doe"
+        android:layout_marginLeft="17dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textSize="12dp"
+        android:gravity="left"
+        android:layout_marginLeft="17dp"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_height="wrap_content"
+        android:text="School Staff" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

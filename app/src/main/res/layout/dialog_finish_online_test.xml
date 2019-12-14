@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:gravity="top"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ccdc39">
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ok"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="#089ce1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:id="@+id/thankyou_score"
+        android:text="Your Score is: 40%"
+        android:textColor="#e90628"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:id="@+id/grade_text"
+        android:textAlignment="center"
+        android:text="You've successfully attempt the CampusChat Online Test. We assured you 91% of getting this score in your Unilorin Realtime Examination."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#089ce1"
+        android:id="@+id/textView_thankyou"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
